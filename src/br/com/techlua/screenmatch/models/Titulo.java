@@ -1,6 +1,6 @@
 package br.com.techlua.screenmatch.models;
 
-public class Filme {
+public class Titulo {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -12,12 +12,24 @@ public class Filme {
         this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
     public void setAnoDeLancamento(int anoDeLancamento) {
         this.anoDeLancamento = anoDeLancamento;
     }
 
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
     }
 
     public int getTotalDeAvaliacoes() {
