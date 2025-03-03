@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
+        Titulo meuFilme = new Titulo();
         DecimalFormat numberFormat = new DecimalFormat("#.0");
         meuFilme.setNome("O poderoso chefão");
         meuFilme.setAnoDeLancamento(1970);
